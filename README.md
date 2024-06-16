@@ -1,1 +1,1 @@
-This repository will have all the programs in python that were studied and created in the First Week of Python Learning
+Welcome to the Python Programming repository! This repository contains a variety of Python scripts and projects, ranging from basic syntax and fundamental concepts to advanced topics and applications. Whether you are a beginner looking to learn Python or an experienced developer seeking to enhance your skills, you'll find valuable resources here.
