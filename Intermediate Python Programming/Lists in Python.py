@@ -94,11 +94,13 @@ print(A[1])
 print(A[1][3])
 
 #Case 15 Storing Different Data Types in list
-H = ["Honda","Swift",14.5,"True",900000]
+H = ["Honda","Swift",14.5,"True"]
 print("Output as per Case 15 Are Below . . .")
 print(H[0])
 print(H[1])
 print(H[2])
-print(H[3])
 
-#Case 
+#Case 16 Print Elements with Negative Indexes
+print("Output as per Case 16 Are Below . . .")
+print(H[2])
+print(H[-2])                        #It's OK Because -2 + 4 = 2 so element at index 2 will be printed
