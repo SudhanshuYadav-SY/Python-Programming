@@ -111,3 +111,6 @@ print(a[1:3])               #index : position
 print(a[1:])                #index : last position
 print(a[:])                 #first index : last position
 
+#Case 18 : Count repetition of a number in a list
+l = [1,14,1,788,12,1,17,1,89]
+print(l.count(1))
