@@ -77,3 +77,18 @@ print("Output as per Case 12 Are Below . . .")
 print(a)
 a.sort()
 print(a)
+""""
+colors = ["Red","Yellow","Green","Black"]
+colors.sort()
+print(colors)"""
+
+#Case 13 Access Elements on the basis of Index
+print("Output as per Case 13 Are Below . . .")
+print(a)
+print(a.index(5))
+
+#Case 14 Nested List
+print("Output as per Case 14 Are Below . . .")
+A = [12,[6,4,98,12],8,19]
+print(A[1])
+print(A[1][3])
