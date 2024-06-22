@@ -104,3 +104,7 @@ print(H[2])
 print("Output as per Case 16 Are Below . . .")
 print(H[2])
 print(H[-2])                        #It's OK Because -2 + 4 = 2 so element at index 2 will be printed
+
+#Case 17 Slicing up lists
+print(a)
+print(a[1:3])
