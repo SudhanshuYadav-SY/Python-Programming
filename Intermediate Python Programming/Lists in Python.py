@@ -107,4 +107,7 @@ print(H[-2])                        #It's OK Because -2 + 4 = 2 so element at in
 
 #Case 17 Slicing up lists
 print(a)
-print(a[1:3])
+print(a[1:3])               #index : position
+print(a[1:])                #index : last position
+print(a[:])                 #first index : last position
+
