@@ -59,3 +59,10 @@ print("Output as per Case 9 is Below . . .")
 print(k)
 k.clear()
 print(k)
+
+#Case 10 Print the pop element
+print("Output as per Case 10 Are Below . . .")
+print(c)
+print(c.pop(1))
+print(c)
+
