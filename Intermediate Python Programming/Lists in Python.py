@@ -130,3 +130,8 @@ print(sum(l))
 print("Output as per Case 21 Are Below . . .")
 print(type(l))
 
+#Case 22 Delete A List
+print("Output as per Case 22 Are Below . . .")
+print(H)
+del H
+print(H)
