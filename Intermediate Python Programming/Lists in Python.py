@@ -66,3 +66,8 @@ print(c)
 print(c.pop(1))
 print(c)
 
+#Case 11 Reverse all elements in the list
+print("Output as per Case 11 Are Below . . .")
+print(j)
+j.reverse()
+print(j)
