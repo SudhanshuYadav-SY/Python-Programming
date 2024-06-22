@@ -92,3 +92,13 @@ print("Output as per Case 14 Are Below . . .")
 A = [12,[6,4,98,12],8,19]
 print(A[1])
 print(A[1][3])
+
+#Case 15 Storing Different Data Types in list
+H = ["Honda","Swift",14.5,"True",900000]
+print("Output as per Case 15 Are Below . . .")
+print(H[0])
+print(H[1])
+print(H[2])
+print(H[3])
+
+#Case 
