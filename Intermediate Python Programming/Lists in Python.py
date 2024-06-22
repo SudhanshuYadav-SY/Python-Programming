@@ -71,3 +71,9 @@ print("Output as per Case 11 Are Below . . .")
 print(j)
 j.reverse()
 print(j)
+
+#Case 12 Sort out all elements in the list
+print("Output as per Case 12 Are Below . . .")
+print(a)
+a.sort()
+print(a)
