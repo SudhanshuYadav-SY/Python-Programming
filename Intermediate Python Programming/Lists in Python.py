@@ -131,7 +131,21 @@ print("Output as per Case 21 Are Below . . .")
 print(type(l))
 
 #Case 22 Delete A List
-print("Output as per Case 22 Are Below . . .")
-print(H)
-del H
-print(H)
+#print("Output as per Case 22 Are Below . . .")
+#print(H)
+#del H
+#print(H)
+
+#Case 23 Check if element exists or not
+print("Output as per Case 23 Are Below . . .")
+print(5 in a)
+print(23 in a)
+
+#Case 24 Concate 2 lists
+print("Output as per Case 24 Are Below . . .")
+print(a)
+print(c)
+S = a + c
+print(S)
+
+#Case
