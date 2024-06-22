@@ -48,3 +48,8 @@ print(g)
 g.remove(20)
 print("Output as per Case 7 is Below . . .")
 print(g)
+
+#Case 8 Removing last element from list
+g.pop()
+print("Output as per Case 8 is Below . . .")
+print(g)
