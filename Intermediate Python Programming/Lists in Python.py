@@ -106,11 +106,27 @@ print(H[2])
 print(H[-2])                        #It's OK Because -2 + 4 = 2 so element at index 2 will be printed
 
 #Case 17 Slicing up lists
+print("Output as per Case 17 Are Below . . .")
 print(a)
 print(a[1:3])               #index : position
 print(a[1:])                #index : last position
 print(a[:])                 #first index : last position
 
 #Case 18 : Count repetition of a number in a list
+print("Output as per Case 18 Are Below . . .")
 l = [1,14,1,788,12,1,17,1,89]
 print(l.count(1))
+
+#Case 19 Find max and min in a list
+print("Output as per Case 19 Are Below . . .")
+print(max(l))
+print(min(l))
+
+#Case 20 Add Sum of elements in list
+print("Output as per Case 20 Are Below . . .")
+print(sum(l))
+
+#Case 21 Identify Data Types in list
+print("Output as per Case 21 Are Below . . .")
+print(type(l))
+
