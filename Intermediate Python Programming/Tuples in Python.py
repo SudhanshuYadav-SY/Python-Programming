@@ -9,3 +9,5 @@ print(type(a))
 #Case 4 Indexing in a tuple
 print(a[2])                 #Forward Index
 print(a[-2])                #Backward Index Because -2 + 4 = 2
+#Case 5 Find length of a tuple
+print(len(a))
