@@ -40,3 +40,17 @@ print(a.count(12))          #Count Occurrence of that number in the tuple
 print(sum(a))               #Print sum of all elements in the tuple
 print(max(a))               #Print maximum in the tuple
 print(min(a))               #Print minimum in the tuple
+print(a.index(5))           #Print the index where that element is present
+b = (4,7,2,1)
+print(b)
+#del b
+#print(b)
+#Nested Tuple
+c = (4,(4,8,10,1),2,1)
+print(c)
+print(c[1][3])
+d = (4,[4,8,10,1],2,1)      #List inside a tuple
+d[1][3] = 19
+print(d)
+
+#Type Casting a String to Tuple
