@@ -1,6 +1,6 @@
 #Case 1 Basic Representation of a Tuple
 print("Case 1 Output is here")
-a = (12,5,8,7)
+a = (12,5,8,7,12,54,12)
 print(a)
 #Case 2 Update Value of a element in a tuple
 #a[1] = 9
@@ -34,3 +34,9 @@ print(5 in a)
 print(5 not in a)
 print(77 in a)
 print(77 not in a)
+#Case 9 Use Count() in a tuple
+print("Case 9 Output is here")
+print(a.count(12))          #Count Occurrence of that number in the tuple
+print(sum(a))               #Print sum of all elements in the tuple
+print(max(a))               #Print maximum in the tuple
+print(min(a))               #Print minimum in the tuple
