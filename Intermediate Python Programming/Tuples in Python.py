@@ -29,3 +29,8 @@ print(a[:3])
 print(a[1:])
 print(a[:])
 #Case 8 Using IN And NOT IN Operator
+print("Case 8 Output is here")
+print(5 in a)
+print(5 not in a)
+print(77 in a)
+print(77 not in a)
