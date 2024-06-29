@@ -53,4 +53,9 @@ d = (4,[4,8,10,1],2,1)      #List inside a tuple
 d[1][3] = 19
 print(d)
 
-#Type Casting a String to Tuple
+#Case 10 Type Casting a String to Tuple
+print("Case 10 Output is here")
+name = tuple("Sudhanshu")
+print(name[6])
+for h in name:
+    print(h)
