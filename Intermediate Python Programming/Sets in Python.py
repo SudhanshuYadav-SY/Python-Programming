@@ -8,3 +8,16 @@ print(a)
 d = {1,8,1,7,1,5}
 print("Output of Case 3 is here")
 print(d)
+#Case 4 Print Type of Set
+print("Output of Case 4 is here")
+print(type(d))
+#Case 5 Print Size of Set
+print("Output of Case 5 is here")
+print(len(d))
+#Case 6 Add Elements to the Set
+print("Output of Case 6 is here")
+print(a)
+a.add(5)
+a.add(13)
+print(a)
+#Case 7 Using Update()
