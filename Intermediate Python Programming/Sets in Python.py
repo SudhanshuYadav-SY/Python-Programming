@@ -63,3 +63,14 @@ print(7 in a)
 print(5 in a)
 print(13 not in a)
 print(13 in a)
+#Case 15 Nested Sets or Lists are not possible in SETs But Tuples are allowed
+print("Output of Case 15 is here")
+d = {1,7,(5,4,0),6}
+print(d)
+#Case 16 Convert List to set
+print("Output of Case 16 is here")
+# Example list
+b = [1, 2, 2, 3, 4, 4, 5]
+print(type(b))
+s = set(b)                      # Typecasting list to set
+print(type(s))                  # Printing the type of the set
