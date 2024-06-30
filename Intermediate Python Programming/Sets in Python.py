@@ -74,3 +74,25 @@ b = [1, 2, 2, 3, 4, 4, 5]
 print(type(b))
 s = set(b)                      # Typecasting list to set
 print(type(s))                  # Printing the type of the set
+#Case 17 Using Union() Operator
+print("Output of Case 17 is Here")
+c = {6,8,9,0}
+d = {5,0,4,1}
+print(c.union(d))           #Alternatively you can use OR Here
+print(c.__or__(d))         #Also you can use | here
+#Case 18 Using Intersection() Operator
+print("Output of Case 18 is Here")
+print(c.intersection(d))
+#Case 19 Using Difference() Operator
+print("Output of Case 19 is Here")
+print(c - d)
+print(d - c)
+#Case 20 Using Symmetric Difference that is common will be removed other values will be printed
+print("Output of Case 20 is Here")
+print(c.symmetric_difference(d))
+print(c ^ d)
+#Case 21 Using Max & Min in set
+print("Output of Case 21 is Here")
+print(max(c))
+print(min(d))
+print(sum(a))
