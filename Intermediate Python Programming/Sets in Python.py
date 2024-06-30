@@ -25,3 +25,8 @@ print("Output of Case 7 is here")
 print(a)
 a.update([16,7,91])
 print(a)
+#Case 8 Removing the values from Set
+print("Output of Case 8 is here")
+print(a)
+a.remove(5)
+print(a)
