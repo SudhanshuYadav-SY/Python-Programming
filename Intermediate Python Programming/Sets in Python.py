@@ -30,3 +30,36 @@ print("Output of Case 8 is here")
 print(a)
 a.remove(5)
 print(a)
+#a.remove(15)                #Removing element which is not present in SET
+#print(a)
+#Case 9 Using Discard()
+print("Output of Case 9 is here")
+a.discard(15)
+print(a)
+#Case 10 Using Pop() in sets
+print("Output of Case 10 is here")
+print(a)
+a.pop()
+print(a)
+a.pop()
+print(a)
+#Case 11 Removing all elements in one go using clear()
+print("Output of Case 11 is here")
+print(d)
+d.clear()
+print(d)
+#Case 12 Delete Entire Set
+print("Output of Case 12 is here")
+print(d)
+#del d
+#print(d)
+#Case 13 For Each loop in Set
+print("Output of Case 13 is here")
+for e in a:
+    print(e)
+#Case 14 Use of IN and NOT IN Operator
+print("Output of Case 14 is here")
+print(7 in a)
+print(5 in a)
+print(13 not in a)
+print(13 in a)
