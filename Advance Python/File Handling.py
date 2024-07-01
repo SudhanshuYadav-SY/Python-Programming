@@ -13,7 +13,15 @@ file.close()
 file = open("S:\\Python Projects\\FirstPythonProject\\Advance Python\\Sample.txt","r")         #Here w stands for writing and r stands for reading and a stands for appending
 #print(file.read())
 #print(file.read(20))
-lines = file.readlines()
+"""lines = file.readlines()
 for line in lines:
-    print(line)
+    print(line)"""
+"""print(file.readline())                  #Will print line 1st
+print(file.readline())                  #Will print line 2nd
+print(file.readline())                  #Will print line 3rd"""
 file.close()
+
+#Case Using for each loop to read a line
+file = open("S:\\Python Projects\\FirstPythonProject\\Advance Python\\Sample.txt","r")         #Here w stands for writing and r stands for reading and a stands for appending
+for line in file:
+    print(line)
