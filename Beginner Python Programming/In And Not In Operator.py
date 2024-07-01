@@ -21,3 +21,23 @@ print('Red' in colours_set)
 print('Orange' in colours_set)
 print('Blue' not in colours_set)
 print('Yellow' not in colours_set)
+
+#Case 4 Implement IN & NOT IN along with For loop with Range()
+print("Case 4 Output. . .")
+for i in range(len(colours_set)):       #Print Indexes
+    print(i)
+
+#Case 5 Implement IN & NOT IN along with For Each loop
+print("Case 5 Output. . .")
+for color in colours_set:               #Print Colours
+    print(color)
+
+#Case 6 Implement IN & NOT IN along with strings
+a = ("Python is an Object Oriented Programming Language."
+     "Python is very easy to understand and implement via Coding."
+     "Python is Coded Using PyCharm IDE")
+print("Case 6 Output. . .")
+print('Python' in a)
+print('JAVA' in a)
+print('JAVA' not in a)
+print('Pycharm IDE' not in a)
