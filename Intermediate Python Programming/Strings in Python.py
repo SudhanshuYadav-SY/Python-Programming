@@ -44,3 +44,9 @@ print(name.split(" "))
 print(type(name.split(" ")))
 words = name.split(" ")
 print(words[1])
+#Case 8 Strings are Immutable
+print("Case 8 Output . . .")
+c = "Sudhanshu"
+print(id(c))            #Show the memory address of this variable c
+c = "Sudhanshu Yadav"
+print(id(c))            #Show the memory address of this variable c
