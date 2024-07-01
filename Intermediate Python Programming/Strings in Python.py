@@ -56,3 +56,7 @@ print("Case 9 Output . . .")
 print(c.capitalize())       #Only first letter will be in capitals
 print(c.title())            #Print First letter is in capital
 print(c.count("d"))         #Count Occurrence of D in string
+h = "I am Sudhanshu And I Teach Python. Python is a very easy programming language"
+print(h.find("Python"))          #Find Index of Python in the string
+print(h.find("Java"))            #Find Index of string not present
+#Case 10 String Comparision
