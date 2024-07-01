@@ -21,4 +21,9 @@ print("Case 4 Output . . .")
 print(len(first_name))
 for i in range(len(first_name)):
     print(first_name[i])
-#Case 5 Use of in & Not in 
+#Case 5 Use of in & Not in String
+print("Case 5 Output . . .")
+print("Sud" in first_name)
+print("Sud" not in first_name)
+print("Yad" not in last_name)
+print("Yad" in last_name)
