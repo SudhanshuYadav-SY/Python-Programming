@@ -32,3 +32,9 @@ print("Case 6 Output . . .")
 print(first_name[1:5])
 print(first_name[:5])
 print(first_name[1:])
+#Case 7 Modify Strings
+print("Case 7 Output . . .")
+n = "     Sud Yadav   "
+print(first_name.upper())
+print(first_name.lower())
+print(n.strip())
