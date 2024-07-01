@@ -50,3 +50,9 @@ c = "Sudhanshu"
 print(id(c))            #Show the memory address of this variable c
 c = "Sudhanshu Yadav"
 print(id(c))            #Show the memory address of this variable c
+
+#Case 9 Other Operations on Strings
+print("Case 9 Output . . .")
+print(c.capitalize())       #Only first letter will be in capitals
+print(c.title())            #Print First letter is in capital
+print(c.count("d"))         #Count Occurrence of D in string
