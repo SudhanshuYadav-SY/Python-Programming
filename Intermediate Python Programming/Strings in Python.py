@@ -59,4 +59,15 @@ print(c.count("d"))         #Count Occurrence of D in string
 h = "I am Sudhanshu And I Teach Python. Python is a very easy programming language"
 print(h.find("Python"))          #Find Index of Python in the string
 print(h.find("Java"))            #Find Index of string not present
-#Case 10 String Comparision
+#Case 10 String Comparison
+print("Case 10 Output . . .")
+name_1 = "Sudhanshu"
+name_2 = "Sudhanshu"
+name_3 = "Yadav"
+name_4 = "sudhanshu"
+print(name_1 == name_2)             #Check if Strings are equal or not
+print(name_1 == name_3)             #Check if Strings are equal or not
+print(name_1.__eq__(name_2))        #Check if Strings are equal or not
+print(name_1.__eq__(name_3))        #Check if Strings are equal or not
+print(name_1.__eq__(name_4))        #Check if Strings are equal or not
+print(name_1.casefold()==name_4)    #Check if Strings are equal or not irrespective of Upper Case & Lower Case
