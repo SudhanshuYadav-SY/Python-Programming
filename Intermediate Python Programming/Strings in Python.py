@@ -38,3 +38,9 @@ n = "     Sud Yadav   "
 print(first_name.upper())
 print(first_name.lower())
 print(n.strip())
+print(n.replace("d","n"))
+name = "My Name is Sudhanshu Yadav"
+print(name.split(" "))
+print(type(name.split(" ")))
+words = name.split(" ")
+print(words[1])
