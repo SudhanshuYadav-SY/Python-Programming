@@ -1,4 +1,7 @@
 class Car :
+
+    def start_Car(self):
+        print("Car started!!")
     def sample(self,brand,model,price,milage):
         self.brand = brand
         self.model = model
@@ -12,6 +15,10 @@ class Car :
     def sample_two(self):
         print(self.brand, self.model, self.price, self.milage)
 
+    def sample_three(self):
+        self.start_Car()
+
 obj1 = Car()
 obj1.sample("Hyundai","i20",900000,16.5)
 obj1.sample_two()
+obj1.sample_three()
