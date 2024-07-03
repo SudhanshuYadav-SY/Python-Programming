@@ -15,3 +15,22 @@ print(car["Model"])                 #Get the Model of Car
 print("Output as per Case 3")
 print(car.keys())
 print(car.values())
+#Case 4 Updating the values of dictionary
+print("Output as per Case 4")
+print(car)
+car["Price"] = '660000'     #Hence Proved dictionary is mutable
+print(car)
+#Case 5 Add a New Key to dictionary
+print("Output as per Case 5")
+print(car)
+car["color"] = "Black"
+print(car)
+#Case 6 Use for each loop in Dictionary
+print("Output as per Case 6")
+for k in car:
+    print(k)
+#Alternatively you can use this,
+"""for j in car.keys():
+    print(j)"""
+for j in car.values():
+    print(j)
