@@ -18,7 +18,7 @@ print(car.values())
 #Case 4 Updating the values of dictionary
 print("Output as per Case 4")
 print(car)
-car["Price"] = '660000'     #Hence Proved dictionary is mutable
+car["Price"] = 660000     #Hence Proved dictionary is mutable
 print(car)
 #Case 5 Add a New Key to dictionary
 print("Output as per Case 5")
@@ -61,5 +61,34 @@ print(car)
 #Case 10 Clear all items from dictionary
 print("Output as per Case 10")
 print(car)
-car.clear()
+#car.clear()
+#print(car)
+
+#Also entire dictionary can be deleted by using del >dictionary name>
+
+#Case 11 Find length of dictionary
+print("Output as per Case 11")
 print(car)
+print(len(car))
+
+#Case 12 Comparing Dictionaries
+bus = {
+    "Brand":"IC Bus",
+    "Model":"Type A",
+    "Price": 190000,
+    "Milage":13.65
+}
+
+car2 = {
+    "Brand":"Honda",
+    "Model":"Amaze",
+    "Price": 660000,
+    "Milage":14.65,
+    "color": "Black"
+}
+print("Output as per Case 12")
+print(car == car2)
+print(car == bus)
+print(car2 == bus)
+
+#Also Imp. Note Order of dictionary does not matter when comparing them
