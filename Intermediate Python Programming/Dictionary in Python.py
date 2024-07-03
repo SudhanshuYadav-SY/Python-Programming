@@ -39,4 +39,17 @@ print("Special Case")
 for a in car.keys():
     print(a,car.get(a))                 #Here Key-value pair will be printed
 
-#Case 7
+#Case 7 Items in Dictionary
+print("Output as per Case 7")
+for d,e in car.items():
+    print(d,e)                          #Here Key-value pair will be printed
+
+#Case 8 Pop item from dictionary
+print("Output as per Case 8")
+print(car)
+car.pop("color")
+print(car)
+
+#Alternatively you can use del keyword
+
+#Case 9
