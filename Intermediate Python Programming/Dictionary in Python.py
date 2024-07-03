@@ -34,3 +34,9 @@ for k in car:
     print(j)"""
 for j in car.values():
     print(j)
+#Alternatively you can try this out,
+print("Special Case")
+for a in car.keys():
+    print(a,car.get(a))                 #Here Key-value pair will be printed
+
+#Case 7
