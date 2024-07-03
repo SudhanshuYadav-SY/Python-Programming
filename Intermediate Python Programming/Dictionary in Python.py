@@ -55,5 +55,11 @@ print(car)
 #Case 9 Removing the last item
 print("Output as per Case 9")
 print(car)
-car.popitem()
+#car.popitem()
+#print(car)
+
+#Case 10 Clear all items from dictionary
+print("Output as per Case 10")
+print(car)
+car.clear()
 print(car)
