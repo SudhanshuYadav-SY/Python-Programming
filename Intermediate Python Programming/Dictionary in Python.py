@@ -11,4 +11,7 @@ print(type(car))
 print("Output as per Case 2")
 print(car.get("Price"))             #Get the Price of Car
 print(car["Model"])                 #Get the Model of Car
-#Case 3 Print all keys of dictionary
+#Case 3 Print all keys or values of dictionary
+print("Output as per Case 3")
+print(car.keys())
+print(car.values())
