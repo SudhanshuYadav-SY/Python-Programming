@@ -47,9 +47,13 @@ for d,e in car.items():
 #Case 8 Pop item from dictionary
 print("Output as per Case 8")
 print(car)
-car.pop("color")
-print(car)
+#car.pop("color")
+#print(car)
 
 #Alternatively you can use del keyword
 
-#Case 9
+#Case 9 Removing the last item
+print("Output as per Case 9")
+print(car)
+car.popitem()
+print(car)
