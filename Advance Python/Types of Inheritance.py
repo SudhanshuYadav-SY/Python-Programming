@@ -54,4 +54,23 @@ obj4.child_method()
 obj4.GrandChildMethod3()
 
 #Case 5 Implementation of Hybrid Inheritance
+#Also, Hybrid Inheritance = Multilevel + Hierarchical Inheritance
 print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Hybrid Inheritance . . .")
+class A:
+    a = 4
+
+class B(A):             #Hierarichal Inheritance
+    b = 5
+
+class C(A):             #Hierarichal Inheritance
+    c = 7
+
+class D(B,C):               #Multi-level Inheritance
+    d = 10
+
+d = D()
+print(d.a)
+print(d.b)
+print(d.c)
+print(d.d)
+print(d.a + d.b + d.c + d.d)
