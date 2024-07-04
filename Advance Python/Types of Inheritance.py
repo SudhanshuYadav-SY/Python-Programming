@@ -13,10 +13,20 @@ class Child(Parent):                            #Here, Child is inheriting prope
 
 
 obj1 = Child()
-print(obj1.a)
 obj1.parent_method()
-print(obj1.b)
 obj1.child_method()
 
 #Case 2 Implementation of Multilevel Inheritance
-print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Multilevel Inheritance")
+print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Multilevel Inheritance . . .")
+class GrandChild(Child):
+    def GrandChildMethod(self):
+        print("Inside Grand Child Method of Grand Child Class")
+
+
+obj2 = GrandChild()
+obj2.parent_method()
+obj2.child_method()
+obj2.GrandChildMethod()
+
+#Case 3
+print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Hierarchical Inheritance . . .")
