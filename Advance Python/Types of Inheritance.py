@@ -37,3 +37,21 @@ class GrandChild2(Parent):
 obj3 = GrandChild2()
 obj3.GrandChildMethod2()
 obj3.parent_method()
+
+#Case 4 Implementation of Multiple Inheritance
+print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Multiple Inheritance . . .")
+class Dummy():
+    def DummyMethod(self):
+        print("Inside Dummy Method")
+
+class GrandChild3(Child,Dummy):
+    def GrandChildMethod3(self):
+        print("Inside 3rd Grand Child")
+
+obj4 = GrandChild3()
+obj4.DummyMethod()
+obj4.child_method()
+obj4.GrandChildMethod3()
+
+#Case 5 Implementation of Hybrid Inheritance
+print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Hybrid Inheritance . . .")
