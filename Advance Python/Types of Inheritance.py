@@ -28,5 +28,12 @@ obj2.parent_method()
 obj2.child_method()
 obj2.GrandChildMethod()
 
-#Case 3
+#Case 3 Implementation of Hierarchical Inheritance
 print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImplementation of Hierarchical Inheritance . . .")
+class GrandChild2(Parent):
+    def GrandChildMethod2(self):
+        print("Inside 2nd Grand Child Method of Grand Child Class")
+
+obj3 = GrandChild2()
+obj3.GrandChildMethod2()
+obj3.parent_method()
