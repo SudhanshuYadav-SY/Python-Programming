@@ -43,5 +43,6 @@ class M:
 class O(M):
     def __init__(self):
         print("Init Method of class O")
+        super().__init__()
 
 O()
