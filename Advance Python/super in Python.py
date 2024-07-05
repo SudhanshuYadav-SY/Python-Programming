@@ -21,3 +21,27 @@ class B(A):
 
 obj = B()
 obj.printProperties()
+print("----------------------------------------------------------------------------------------------------------")
+#Case 2
+
+class H:
+    def __init__(self):
+        print("Init Method for class A")
+
+
+class J(H):
+    pass                #Nothing will happen just class will be passed
+
+
+J()
+print("----------------------------------------------------------------------------------------------------------")
+#Case 3
+class M:
+    def __init__(self):
+        print("Init method of class M")
+
+class O(M):
+    def __init__(self):
+        print("Init Method of class O")
+
+O()
