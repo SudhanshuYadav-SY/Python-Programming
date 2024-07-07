@@ -1,6 +1,9 @@
-import calculator
+from calculator import Addition
+from calculator import Subtraction
+from calculator import Product
+from calculator import Division
 
-calculator.Addition(6,4)
-calculator.Subtraction(10,8)
-calculator.Product(5,7)
-calculator.Division(10,7)
+Addition(6,4)
+Subtraction(10,8)
+Product(5,7)
+Division(10,7)
