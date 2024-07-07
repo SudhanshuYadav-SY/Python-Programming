@@ -36,3 +36,4 @@ colors = [
 ]
 
 print("Random Colour Selected = "+random.choice(colors))
+print("Random Number Selected = "+str(random.randint(1,100)))
