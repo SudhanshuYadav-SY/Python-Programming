@@ -17,13 +17,14 @@ class B(A):
     def method_1(self):
         print("Inside Method 1")
 
+class C(B):
     def method_2(self):
         print("Inside Method 2")
 
 #We can not create objects for Abstract Classes
 #To Access Abstract methods you can create a child class and implement the same
 #obj = A()
-obj = B()
+obj = C()
 obj.method_1()
 obj.method_2()
 obj.method_3()
