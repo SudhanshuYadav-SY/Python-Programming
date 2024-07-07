@@ -1,7 +1,4 @@
-from calculator import Addition
-from calculator import Subtraction
-from calculator import Product
-from calculator import Division
+from calculator import *
 
 Addition(6,4)
 Subtraction(10,8)
