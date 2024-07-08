@@ -1,3 +1,6 @@
+
+#Created a module named calculator
+
 def Addition(a,b):
     sum = a + b
     print("Addition of "+str(a)+" AND "+str(b)+" = "+str(sum))
