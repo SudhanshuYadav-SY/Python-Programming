@@ -21,4 +21,20 @@ except ZeroDivisionError:
 
     print("Exception Handled Successfully!!")
 
-#Case 2
+import math
+
+#Case 2 Square Root of a negative number
+
+print("Enter any number of your choice")
+
+a = int(input())
+
+try:
+
+    sqrt = math.sqrt(a)
+
+    print(sqrt)
+
+except:
+
+    print("Square Root of a Negative Number can't be calculated!")
