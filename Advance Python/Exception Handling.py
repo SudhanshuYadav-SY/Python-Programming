@@ -134,3 +134,21 @@ try:
 except ZeroDivisionError as z:
 
     print("Exception Handled Successfully!!",z)
+
+#Case 9
+
+print("Case 9")
+
+print("Enter the age of child")
+
+age = int(input())
+
+if age<5:
+
+    print("He is a toddler")
+
+    raise ValueError
+else:
+    print("Your child Should Be in School")
+
+print("He is a children")
