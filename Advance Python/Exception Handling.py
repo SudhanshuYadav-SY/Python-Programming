@@ -92,3 +92,19 @@ except TypeError as t:
 
 else:
     print("Inside Else Block")
+
+#Case 7 Finally Block after Exception Block
+
+print("Enter any random name")
+
+name7 = str(input())
+
+try:
+    new_Name = 10 + name7
+
+except TypeError as t:
+
+    print("String can't be appended with Number")
+
+finally:
+    print("Inside Finally Block")
