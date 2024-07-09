@@ -1,6 +1,8 @@
 
 #Case 1 Basic Exception Handling
 
+import math
+
 print("\n")
 
 print("Enter the value of Numerator")
@@ -21,7 +23,7 @@ except ZeroDivisionError:
 
     print("Exception Handled Successfully!!")
 
-import math
+
 
 #Case 2 Square Root of a negative number
 
@@ -65,10 +67,28 @@ except NameError:
 
 print("Enter any random name")
 
-name = str(input())
+name5 = str(input())
 
 try:
-    new_Name = 10 + name
+    new_Name = 10 + name5
 
 except TypeError as t:
+
     print("String can't be appended with Number "+str(t))
+
+
+#Case 6 Else Block after Exception Block
+
+print("Enter any random name")
+
+name6 = int(input())
+
+try:
+    new_Name = 10 + name6
+
+except TypeError as t:
+
+    print("String can't be appended with Number")
+
+else:
+    print("Inside Else Block")
