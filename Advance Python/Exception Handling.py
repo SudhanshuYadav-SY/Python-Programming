@@ -5,6 +5,8 @@ import math
 
 print("\n")
 
+print("Case 1")
+
 print("Enter the value of Numerator")
 
 num = int(input())
@@ -27,6 +29,8 @@ except ZeroDivisionError:
 
 #Case 2 Square Root of a negative number
 
+print("Case 2")
+
 print("Enter any number of your choice")
 
 a = int(input())
@@ -43,6 +47,8 @@ except:
 
 #Case 3 Number With String Exception
 
+print("Case 3")
+
 print("Enter any random name")
 
 name = str(input())
@@ -55,6 +61,8 @@ except TypeError:
 
 #Case 4 Name Error
 
+print("Case 4")
+
 print("Enter a name")
 
 try:
@@ -64,6 +72,8 @@ except NameError:
 
 
 #Case 5 Exception Object
+
+print("Case 5")
 
 print("Enter any random name")
 
@@ -78,6 +88,8 @@ except TypeError as t:
 
 
 #Case 6 Else Block after Exception Block
+
+print("Case 6")
 
 print("Enter any random name")
 
@@ -95,6 +107,8 @@ else:
 
 #Case 7 Finally Block after Exception Block
 
+print("Case 7")
+
 print("Enter any random name")
 
 name7 = str(input())
@@ -108,3 +122,15 @@ except TypeError as t:
 
 finally:
     print("Inside Finally Block")
+
+#Case 8 Raise Zero Division Error
+
+print("Case 8")
+
+try:
+
+    raise ZeroDivisionError("No values Passed")
+
+except ZeroDivisionError as z:
+
+    print("Exception Handled Successfully!!",z)
