@@ -51,3 +51,11 @@ try:
 except TypeError:
     print("String can't be appended with Number")
 
+#Case 4 Name Error
+
+print("Enter a name")
+
+try:
+    print("Your name is "+your_name)
+except NameError:
+    print("Your name is not initialised")
