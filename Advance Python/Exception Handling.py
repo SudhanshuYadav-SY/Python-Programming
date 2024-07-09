@@ -1,4 +1,6 @@
 
+#Case 1 Basic Exception Handling
+
 print("\n")
 
 print("Enter the value of Numerator")
@@ -15,6 +17,8 @@ try:
 
     print(result)
 
-except:
+except ZeroDivisionError:
 
     print("Exception Handled Successfully!!")
+
+#Case 2
