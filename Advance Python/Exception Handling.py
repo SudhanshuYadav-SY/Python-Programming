@@ -59,3 +59,16 @@ try:
     print("Your name is "+your_name)
 except NameError:
     print("Your name is not initialised")
+
+
+#Case 5 Exception Object
+
+print("Enter any random name")
+
+name = str(input())
+
+try:
+    new_Name = 10 + name
+
+except TypeError as t:
+    print("String can't be appended with Number "+str(t))
