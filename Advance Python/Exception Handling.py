@@ -38,3 +38,16 @@ try:
 except:
 
     print("Square Root of a Negative Number can't be calculated!")
+
+#Case 3 Number With String Exception
+
+print("Enter any random name")
+
+name = str(input())
+
+try:
+    new_Name = 10 + name
+
+except TypeError:
+    print("String can't be appended with Number")
+
