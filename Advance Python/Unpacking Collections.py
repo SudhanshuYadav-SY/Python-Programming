@@ -1,8 +1,8 @@
 
-#Case 1 Unpack Dictionary
-print("Unpacking Dictionary into Individual Variables")
+#Case 1 Unpack Range
+print("Unpacking Range into Individual Variables")
 
-a,b,c,d = {"name":"Sudhanshu", "experience": "2 year 5 months", "location":"New Delhi", "State":"Delhi"}
+a,b,c,d = range(4)
 
 print(a)
 
