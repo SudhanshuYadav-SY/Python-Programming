@@ -1,6 +1,7 @@
-def DoubleStar(**kwargs):
-    for k,v in kwargs.items():
-        print(k,v)
+def Sample(name,experience,location):
+    print(name,experience,location)
 
 
-DoubleStar(name="Sudhanshu",experience=2,city="Delhi")
+d = {"name":"Sudhanshu","experience": "2 year 5 months","location":"New Delhi"}
+
+Sample(**d)
