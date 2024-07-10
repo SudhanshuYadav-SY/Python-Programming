@@ -1,6 +1,7 @@
-def Sample(*args):
-    for i in args:
+def Sample(*Sudhanshu):
+    for i in Sudhanshu:
         print(i)
 
 
-Sample(10,8,7,4)
+Sudhanshu = [78,56,75,10]
+Sample(*Sudhanshu)
