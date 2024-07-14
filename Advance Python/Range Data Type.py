@@ -12,9 +12,19 @@ print("Case 3 . . .")
 for c in b:
     print(c)
 
-d = range(-2,10,3)                           #Here numbers from 2 to 10 with a gap of 3 will be printed
+d = range(-2,10,3)                              #Here numbers from 2 to 10 with a gap of 3 will be printed
 print("Case 4 . . .")
 for e in d:
     print(e)
 
 
+f = range(12,-2,-3)                             #Reverse Range from 12 to -2 but will end at 0 in console
+print("Case 5 . . .")
+for g in f:
+    print(g)
+
+h = range(15)                              #Print Numbers from 0 to 15
+print("Case 6 . . .")
+print(h[0])                               #Print 0th Element in the range
+print(h[1])                               #Print 1st Element in the range
+print(h[2])                               #Print 2nd Element in the range
