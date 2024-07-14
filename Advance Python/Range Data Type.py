@@ -31,3 +31,8 @@ print(h[2])                                   #Print 2nd Element in the range
 
 for i in h:
     print(i)
+
+m = range(12,18)
+print(m[1:4])                                   #Example of Range Slicing from one position to another position
+print(m[1:])                                    #Example of Range Slicing from one position to end position
+print(m[:4])                                    #Example of Range Slicing from 0th position to fourth position
