@@ -10,3 +10,4 @@ print(c.imag)                                               #Print imaginary-par
 d = 6 + 13j                                                 #Declaration of Another Complex Number
 print(c+d)                                                  #Addition of 2 Complex Numbers
 print(d-c)                                                  #Subtract 2 Complex Numbers
+print(c*d)                                                  #Product of 2 Complex Number
