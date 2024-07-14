@@ -15,3 +15,5 @@ print(d/c)                                                  #Divison of 2 Comple
 
 e = 10j
 print(e)
+print(e.real)
+print(e.imag)
