@@ -23,8 +23,8 @@ print("Case 5 . . .")
 for g in f:
     print(g)
 
-h = range(15)                              #Print Numbers from 0 to 15
+h = range(6,15,3)                              #Print Numbers from 6 to 15 with increment of 3 at each step
 print("Case 6 . . .")
-print(h[0])                               #Print 0th Element in the range
-print(h[1])                               #Print 1st Element in the range
-print(h[2])                               #Print 2nd Element in the range
+print(h[0])                                   #Print 0th Element in the range
+print(h[1])                                   #Print 1st Element in the range
+print(h[2])                                   #Print 2nd Element in the range
