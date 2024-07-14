@@ -28,3 +28,6 @@ print("Case 6 . . .")
 print(h[0])                                   #Print 0th Element in the range
 print(h[1])                                   #Print 1st Element in the range
 print(h[2])                                   #Print 2nd Element in the range
+
+for i in h:
+    print(i)
