@@ -12,7 +12,9 @@ print("Case 3 . . .")
 for c in b:
     print(c)
 
-d = range(2,10,3)                           #Here numbers from 2 to 10 with a gap of 3 will be printed
+d = range(-2,10,3)                           #Here numbers from 2 to 10 with a gap of 3 will be printed
 print("Case 4 . . .")
 for e in d:
     print(e)
+
+
