@@ -1,0 +1,1 @@
+print(bool(0))                             #Will return FALSE
