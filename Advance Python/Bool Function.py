@@ -10,3 +10,6 @@ print(bool(()))                                     #Will Return FALSE
 print(bool({5,8,78,90}))                            #Will Return TRUE
 print(bool({}))                                     #Will Return FALSE
 print(bool({"name","Sudhanshu"}))                   #Will Return TRUE
+print(bool(None))                                   #Will Return FALSE
+print(bool(False))                                  #Will Return FALSE
+print(bool(True))                                   #Will Return TRUE
