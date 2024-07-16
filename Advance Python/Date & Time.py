@@ -7,3 +7,4 @@ print(D)                                                                        
 print(D.date())                                  #Print Only Date NOT time
 print(D.time())                                  #Print Only Time NOT Date
 print(D.day)                                     #Print Only Day
+print(D.year)                                    #Print Only Year
