@@ -1,6 +1,6 @@
 import re
 
-pattern = "[0-9]it"                              #Check if text starts with a certain pattern then is the pattern and text matching or not
+pattern = "[^0-9]it"                              #Check if not of 0 to 9 is there in text pattern that is pattern should not start with number
 print("Enter Sample Text")
 text = input()
 if re.search(pattern,text):
