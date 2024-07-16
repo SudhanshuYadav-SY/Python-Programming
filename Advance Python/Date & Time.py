@@ -16,3 +16,7 @@ print("Seconds = "+str(D.second))                               #Print Only Seco
 print("Now let's Print Statements in String Format Time")
 
 print(D.strftime("%dth %B, %Y"))
+
+print("Now let's Print Current Date & Time Using Python")
+d = datetime.datetime.now()                                    #Get Current Date & Time
+print(d)
