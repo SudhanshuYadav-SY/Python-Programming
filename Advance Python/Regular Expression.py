@@ -1,6 +1,7 @@
 import re
 
-pattern = "Sudhanshu"
+print("Enter a random Pattern")
+pattern = input()
 print("Enter Sample Text")
 text = input()
 if re.search(pattern,text):
