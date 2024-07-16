@@ -12,3 +12,7 @@ print("Date = "+str(D.day))                                     #Print Only Day
 print("Hour = "+str(D.hour))                                    #Print Only Hour
 print("Minutes = "+str(D.minute))                               #Print Only Minute
 print("Seconds = "+str(D.second))                               #Print Only Seconds
+
+print("Now let's Print Statements in String Format Time")
+
+print(D.strftime("%dth %B, %Y"))
