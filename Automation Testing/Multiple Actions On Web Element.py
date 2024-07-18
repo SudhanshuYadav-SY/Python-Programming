@@ -10,4 +10,6 @@ driver.find_element(By.NAME,"fname").clear()                                    
 time.sleep(2)
 driver.find_element(By.NAME,"fname").send_keys("Sudhanshu Yadav")                           #Type Some Text in Text Field
 time.sleep(2)
+driver.find_element(By.NAME,"fname").clear()                                                #Clear That Text Field
+time.sleep(2)
 driver.quit()
