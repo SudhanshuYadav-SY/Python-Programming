@@ -38,8 +38,28 @@ driver.quit()                                                                   
 #Alternatively we can do one thing in-place of so many driver.find_element
 #We can optimise our code as shown below:
 
-text_field = driver.find_element(By.NAME,"fname")                               #Store Web Element as a variable
-text_field.click()                                                                   #Navigate to Web-Element
+text_field = driver.find_element(By.NAME,"fname")                                  #Store Web Element as a variable
+
+text_field.click()                                                                      #Navigate to Web-Element
+
 time.sleep(5)
-text_field.clear()                                                                   #Clear that Text Field
+
+text_field.clear()                                                                      #Clear that Text Field
+
+time.sleep(5)
+
+text_field.send_keys("Sudhanshu Yadav")                                                 #Enter Text in Text Field
+
+time.sleep(5)
+
+text_field.clear()                                                                      #Clear that Text Field
+
+time.sleep(5)
+
+text_field.send_keys("Selenium Python")                                                 #Enter Text in Text Field
+
+time.sleep(5)
+
+text_field.clear()                                                                      #Clear that Text field
+
 time.sleep(5)
