@@ -12,6 +12,14 @@ driver.get("https://omayo.blogspot.com/")                                       
 
 #Let's first clear Text from text box
 
-driver.find_element(By.ID,"textbox1").clear()                                               #Clear Pre-loaded text from text area
+driver.find_element(By.ID,"textbox1").clear()                                               #Clear Pre-loaded text from text box
 
 time.sleep(5)
+
+#Now, Let's Clear Text from Text Area
+
+driver.find_element(By.XPATH,"//*[text()='Text Area Field Two']/following::textarea").clear()       #Clear Pre-loaded Text from Text Area
+
+time.sleep(5)
+
+driver.quit()
