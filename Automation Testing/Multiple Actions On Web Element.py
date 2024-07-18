@@ -41,3 +41,5 @@ driver.quit()                                                                   
 text_field = driver.find_element(By.NAME,"fname")                               #Store Web Element as a variable
 text_field.click()                                                                   #Navigate to Web-Element
 time.sleep(5)
+text_field.clear()                                                                   #Clear that Text Field
+time.sleep(5)
