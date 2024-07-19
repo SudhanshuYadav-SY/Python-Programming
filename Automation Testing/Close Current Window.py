@@ -10,6 +10,10 @@ driver.maximize_window()                                                        
 
 driver.get("https://omayo.blogspot.com/")                                                         #Open Application URL
 
+time.sleep(3)
+
+driver.find_element(By.LINK_TEXT,"Open a popup window").click()                             #Open a new Window
+
 time.sleep(5)
 
 driver.close()
