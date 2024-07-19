@@ -10,10 +10,14 @@ driver.maximize_window()                                                        
 
 driver.get("https://omayo.blogspot.com/")                                                         #Open Application URL
 
-text = driver.find_element(By.ID,"pah").text                                                  #Get Text from Web Page
+text = driver.find_element(By.ID,"pah").text                                                 #Get Text from Web Element
+
+button = driver.find_element(By.ID,"button9").text                                           #Get Text from Web Element
 
 time.sleep(4)
 
 print(text)                                                                                       #Print that Text got
+
+print(button)                                                                                     #Print that Text
 
 driver.quit()
