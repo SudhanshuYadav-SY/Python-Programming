@@ -14,10 +14,14 @@ text = driver.find_element(By.ID,"pah").text                                    
 
 button = driver.find_element(By.ID,"button9").text                                           #Get Text from Web Element
 
+text_Area_Text = driver.find_element(By.XPATH,"//*[text()='Text Area Field Two']/following::textarea").text         #Get Text from Web element
+
 time.sleep(4)
 
-print(text)                                                                                       #Print that Text got
+print("Actual Text is : \n"+text)                                                                                       #Print that Text got
 
-print(button)                                                                                     #Print that Text
+print("Button label is : \n"+button)                                                                                     #Print that Text
+
+print("Pre-exist Text in Text Area : \n"+text_Area_Text)
 
 driver.quit()
