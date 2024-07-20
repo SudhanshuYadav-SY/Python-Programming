@@ -12,6 +12,7 @@ driver.get("https://omayo.blogspot.com/")                                       
 
 time.sleep(5)
 
+driver.find_element(By.XPATH,"//input[@value = 'Bike']").click()
 
 if driver.find_element(By.XPATH,"//input[@value = 'Bike']").is_selected():
     print("Bike Radio Button Selected")
