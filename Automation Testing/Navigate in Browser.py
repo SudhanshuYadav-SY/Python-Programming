@@ -22,7 +22,14 @@ print("Title of the page currently is - "+driver.title)
 
 driver.back()                                                       #Move Back to previous page in the Browser Window
 
+time.sleep(5)
+
 print("Title of the page currently is - "+driver.title)
 
+driver.forward()                                                  #Move Forward to next page in the Browser Window
+
+time.sleep(5)
+
+print("Title of the page currently is - "+driver.title)
 
 driver.quit()
