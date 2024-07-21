@@ -8,7 +8,7 @@ driver = webdriver.Chrome()                                                     
 
 driver.maximize_window()                                                                          #This Will Maximise Automation Window
 
-driver.get("https://omayo.blogspot.com/")                                                         #Open Application URL
+driver.get("https://the-internet.herokuapp.com/basic_web_page.htnl")                                                         #Open Application URL
 
 time.sleep(5)
 
