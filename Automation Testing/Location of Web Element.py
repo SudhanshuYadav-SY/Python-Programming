@@ -17,4 +17,10 @@ WebElement_location = driver.find_element(By.ID,"ta1").location                 
 
 print(WebElement_location)
 
+print("\n\n")
+
+print("X Co-Ordinate of Web Element is - "+str(WebElement_location.get("x")))
+
+print("Y Co-Ordinate of Web Element is - "+str(WebElement_location.get("y")))
+
 driver.quit()
