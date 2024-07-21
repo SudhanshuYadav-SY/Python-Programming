@@ -17,4 +17,8 @@ WebElement_Size = driver.find_element(By.ID,"ta1").size
 
 print(WebElement_Size)
 
+print("Height of the Field is - "+str(WebElement_Size.get("height")))
+
+print("Width of the Field is - "+str(WebElement_Size.get("width")))
+
 driver.quit()
