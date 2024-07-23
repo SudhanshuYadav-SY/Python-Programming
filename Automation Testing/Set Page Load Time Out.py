@@ -9,9 +9,9 @@ driver = webdriver.Chrome()                                                     
 
 driver.maximize_window()                                                                          #This Will Maximise Automation Window
 
-driver.get("https://tutorialsninja.com/demo/")                                                        #Open Application URL
+driver.set_page_load_timeout(10)
 
-driver.set_page_load_timeout(1)
+driver.get("https://tutorialsninja.com/demo/")                                                        #Open Application URL
 
 #time.sleep(5)
 
