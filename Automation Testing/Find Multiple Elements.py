@@ -13,6 +13,8 @@ driver.get("https://omayo.blogspot.com/")
 
 options = driver.find_elements(By.XPATH,"//select[@id='multiselect1']/option")
 
+print("You only have "+str(len(options))+" Cars to choose from")
+
 print("Your Options are - ")
 
 for i in options:
