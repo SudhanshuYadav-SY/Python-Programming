@@ -14,7 +14,7 @@ driver.find_element(By.LINK_TEXT,"JavaScript Alerts").click()
 
 time.sleep(5)
 
-driver.find_element(By.XPATH,"//*[text()='Click for JS Alert']").click()
+driver.find_element(By.XPATH,"//*[text()='Click for JS Confirm']").click()
 
 time.sleep(5)
 
@@ -32,5 +32,7 @@ print("Alert Text is -\n"+info_alert.text)
 info_alert.accept()
 
 print("Result is -\n"+driver.find_element(By.ID,"result").text)
+
+time.sleep(5)
 
 driver.quit()
