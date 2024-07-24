@@ -14,7 +14,7 @@ driver.find_element(By.LINK_TEXT,"JavaScript Alerts").click()
 
 time.sleep(5)
 
-driver.find_element(By.XPATH,"//*[text()='Click for JS Confirm']").click()
+driver.find_element(By.XPATH,"//*[text()='Click for JS Prompt']").click()
 
 time.sleep(5)
 
@@ -28,6 +28,8 @@ time.sleep(5)
 info_alert = driver.switch_to.alert
 
 print("Alert Text is -\n"+info_alert.text)
+
+info_alert.send_keys("Hello I am Sudhanshu Yadav")
 
 info_alert.accept()
 
