@@ -18,6 +18,7 @@ driver.find_element(By.XPATH,"//*[text()='Click for JS Alert']").click()
 
 time.sleep(5)
 
+#This code will generate error as we did not handle previous exception
 driver.find_element(By.XPATH,"//*[text()='Click for JS Confirm']").click()
 
 time.sleep(5)
