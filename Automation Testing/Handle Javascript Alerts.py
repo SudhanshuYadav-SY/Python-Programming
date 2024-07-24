@@ -35,4 +35,8 @@ print("Result is -\n"+driver.find_element(By.ID,"result").text)
 
 time.sleep(5)
 
+driver.find_element(By.LINK_TEXT,"Elemental Selenium").click()
+
+time.sleep(5)
+
 driver.quit()
