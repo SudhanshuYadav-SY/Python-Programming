@@ -23,5 +23,14 @@ time.sleep(5)
 
 time.sleep(5)
 """
+#Now lets handle this alert which pooped out
+
+info_alert = driver.switch_to.alert
+
+print("Alert Text is -\n"+info_alert.text)
+
+info_alert.accept()
+
+print("Result is -\n"+driver.find_element(By.ID,"result").text)
 
 driver.quit()
