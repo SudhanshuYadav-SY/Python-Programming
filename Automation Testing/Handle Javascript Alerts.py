@@ -29,9 +29,7 @@ info_alert = driver.switch_to.alert
 
 print("Alert Text is -\n"+info_alert.text)
 
-info_alert.send_keys("Hello I am Sudhanshu Yadav")
-
-info_alert.accept()
+info_alert.dismiss()
 
 print("Result is -\n"+driver.find_element(By.ID,"result").text)
 
